@@ -35,4 +35,4 @@ else:
         return np.array(result, dtype=np.uint32)
 
     GarnettFrame.type_names = property(_get_type_names)
-    GarnettFrame.typeid = property(get_type_ids)
+    GarnettFrame.typeid = property(_get_type_ids)
